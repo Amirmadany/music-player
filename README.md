@@ -5,7 +5,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 # for install this project
 first download this file
 then write "npm install" to the terminal
-and for showing write "npm run dev" to the terminal
+and for showing project write "npm run dev" to the terminal
 ## Recommended IDE Setup
 
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
