@@ -1,0 +1,152 @@
+.player{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.music-cover-container{
+    width: 13.75rem;
+    height: 13.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 
+        -15px -10px 16px 5px rgba(255, 255, 255, 0.04),
+        10px 10px 16px 8px rgb(24, 26, 29);
+    background: radial-gradient(at top left, rgba(28, 30, 35, 1) 0%, #131416 85%);
+    margin: 1.75rem auto;
+}
+
+.music-cover{
+    width: 12.81rem;
+    height: 12.81rem;
+    border-radius: 50%;
+}
+
+.song-name{
+    font-size: 1.7rem;
+}
+
+.singer-name{
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.seek-song{
+    width: 70%;
+    margin: 1rem auto 0 auto;
+}
+
+.song-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.seek-bar{
+    background: black;
+    height: 0.38rem;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 
+        inset -2px -2px 2px 0 rgb(66, 70, 74),
+        inset 1px 1px 1px -1px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.seek-progress{
+    /* width: 60%; */
+    width: 0%;
+    height: 0.28rem;
+    background: radial-gradient(at top left, #c92711, #ffc107 90%);
+    position: relative;
+}
+
+.music-player-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    padding-bottom: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.control-button{
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 1rem;
+    outline: none !important;
+    cursor: pointer;
+    background: radial-gradient(at bottom right, #16181d 0%, #1a1c20 100%);
+    box-shadow: 
+        -7px -6px 10px 5px rgba(255, 255, 255, 0.041),
+        7px 6px 10px 2px rgb(14, 15, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.control-button-innner{
+    width: 3.35rem;
+    height: 3.35rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(at top left, rgb(57, 59, 64) 0%, rgb(12, 13, 16) 100%);
+    color: #626262;
+}
+
+.play-pause-btn{
+    background: radial-gradient(at bottom right, #b12614, #993b09);
+    transition: all 0.3s linear;
+}
+
+.play-pause-btn .control-button-innner{
+    background: radial-gradient(at bottom right, #c92711, #ea570a);
+    color: white;
+}
+
+.control-button:hover{
+    background: radial-gradient(at bottom right, #c92711, #ea570a);
+}
+
+.action-button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 0.5rem;
+    outline: none !important;
+    cursor: pointer;
+    background: radial-gradient(at bottom right, #16181d 0%, #1a1c20 100%);
+    box-shadow: 
+        -7px -6px 10px 5px rgba(255, 255, 255, 0.041),
+        7px 6px 10px 2px rgb(14, 15, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: #626262;
+}
+
+.inner-action-button{
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(at top left, rgb(57, 59, 64) 0%, rgb(12, 13, 16) 100%);
+}
+
+.action-button.active{
+    background: radial-gradient(at bottom right, #c92711, #ea570a);
+    color: white;
+}
