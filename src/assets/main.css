@@ -13,6 +13,7 @@ body{
 .music{
     margin-top: 1.5rem !important;
     max-width: 27rem;
+    width: 95%;
     margin: auto;
     box-shadow: 
         -4px -2px 4px #262830,
